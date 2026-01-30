@@ -4,18 +4,18 @@ import { BookOpen, Heart, Rocket } from 'lucide-react';
 const values = [
   {
     icon: Heart,
-    title: 'Faith & Integrity',
-    description: 'Grounded in timeless values, we cultivate moral character and ethical leadership in every student.',
+    title: 'Islamic Foundation',
+    description: 'Rooted in Quranic values and Prophetic traditions, we nurture taqwa and strong moral character in every student.',
   },
   {
     icon: BookOpen,
     title: 'Academic Excellence',
-    description: 'Rigorous curriculum and personalized instruction prepare students for success in higher education and beyond.',
+    description: 'Rigorous curriculum blending Islamic studies with modern academics prepares students for success in this life and the Hereafter.',
   },
   {
     icon: Rocket,
     title: 'Future Leadership',
-    description: 'Innovative programs empower students to become confident, creative problem-solvers and global citizens.',
+    description: 'Developing confident Muslim leaders who excel in their fields while serving their communities and the Ummah.',
   },
 ];
 

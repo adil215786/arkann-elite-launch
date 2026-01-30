@@ -26,14 +26,14 @@ const PrincipalWelcome = () => {
               
               <img
                 src={principalImage}
-                alt="Dr. Sarah Mitchell, Head of School"
+                alt="Ustazah Fatimah Rahman, Head of School"
                 className="w-full rounded-2xl shadow-elevated relative z-10"
               />
               
               {/* Name Badge */}
               <div className="absolute -bottom-6 left-6 right-6 bg-card rounded-xl p-4 shadow-card z-20">
                 <p className="font-serif text-lg text-navy font-semibold">
-                  Dr. Sarah Mitchell
+                  Ustazah Fatimah Rahman
                 </p>
                 <p className="text-gold text-sm tracking-wide">
                   Head of School
@@ -58,18 +58,17 @@ const PrincipalWelcome = () => {
 
             <div className="space-y-6 text-cream/80 text-lg leading-relaxed">
               <p>
-                At Arkann Academy, we believe that every child possesses unique gifts 
-                waiting to be discovered and nurtured. Our role as educators is to 
-                create an environment where curiosity flourishes, character develops, 
-                and dreams take flight.
+                At Arkann Academy, we believe that every child is an amanah (trust) 
+                from Allah, with unique gifts waiting to be discovered and nurtured 
+                through the light of Islamic knowledge and excellent education.
               </p>
               <p>
-                With a legacy of academic distinction and a forward-thinking approach 
-                to education, we prepare students not just for the challenges of 
-                tomorrow, but to become the leaders who will shape it.
+                With a legacy of academic distinction and a commitment to tarbiyah,
+                we prepare students not just for worldly success, but to become 
+                leaders who will carry the torch of Islam with wisdom and excellence.
               </p>
               <p className="italic text-gold-light">
-                "Education is not the filling of a pail, but the lighting of a fire."
+                "Seek knowledge from the cradle to the grave." — Prophet Muhammad ﷺ
               </p>
             </div>
 

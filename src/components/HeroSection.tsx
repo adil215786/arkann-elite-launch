@@ -1,17 +1,21 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-students.jpg';
+import heroVideo from '@/assets/hero-video.mp4';
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Students learning in a modern environment"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
-        />
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 gradient-hero-overlay" />
       </div>
 
@@ -30,7 +34,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-gold text-sm md:text-base tracking-[0.25em] uppercase font-medium mb-6"
           >
-            Excellence in Education Since 1985
+            Excellence in Islamic Education Since 1985
           </motion.p>
 
           {/* Main Headline */}
@@ -51,7 +55,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="text-cream/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            A premier K-12 institution committed to nurturing curiosity, character, 
+            A premier Islamic K-12 institution nurturing faith, character, 
             and academic excellence in every student.
           </motion.p>
 
