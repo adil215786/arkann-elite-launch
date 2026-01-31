@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import arkannContent from "@/data/arkannContent";
+import MeetInstructors from "@/components/MeetInstructors";
 
 const ValuesSection = () => {
   const { whoIsArkannFor, about } = arkannContent;
@@ -91,6 +92,8 @@ const ValuesSection = () => {
             </ul>
           </div>
         </div>
+
+        <MeetInstructors />
       </div>
     </section>
   );
