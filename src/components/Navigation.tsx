@@ -7,12 +7,14 @@ import arkannLogo from '@/assets/arkann-logo.jpeg';
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Academics', href: '#academics' },
-  { label: 'Community', href: '#community' },
-  { label: 'News', href: '#news' },
+  { label: 'Islamic Program', href: '#islamic-program' },
+  { label: 'Admissions', href: '#admissions' },
+  { label: 'FAQs', href: '#faqs' },
   { label: 'Contact', href: '#contact' },
 ];
 
 const Navigation = () => {
+  const mailtoLink = "#request-invite";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -70,8 +72,8 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Button variant="navSolid" size="lg">
-              Book a Tour
+            <Button variant="navSolid" size="lg" asChild>
+              <a href={mailtoLink}>Request an Invitation</a>
             </Button>
           </div>
 
@@ -104,8 +106,8 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="navSolid" size="lg" className="mt-4 w-full">
-                Book a Tour
+              <Button variant="navSolid" size="lg" className="mt-4 w-full" asChild>
+                <a href={mailtoLink}>Request an Invitation</a>
               </Button>
             </div>
           </motion.div>

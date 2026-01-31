@@ -1,8 +1,12 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import heroVideo from '@/assets/hero-video.mp4';
+import arkannContent from '@/data/arkannContent';
 
 const HeroSection = () => {
+  const { hero, siteInfo } = arkannContent;
+  const mailtoLink = "#request-invite";
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video */}
@@ -34,7 +38,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-gold text-sm md:text-base tracking-[0.25em] uppercase font-medium mb-6"
           >
-            Excellence in Islamic Education Since 1985
+            {siteInfo.tagline}
           </motion.p>
 
           {/* Main Headline */}
@@ -44,8 +48,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.7 }}
             className="font-serif text-4xl md:text-5xl lg:text-7xl text-cream font-semibold leading-tight mb-8 text-balance"
           >
-            Empowering Minds,{' '}
-            <span className="text-gold italic">Shaping Futures</span>
+            {hero.headline}
           </motion.h1>
 
           {/* Subtitle */}
@@ -55,8 +58,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="text-cream/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            A premier Islamic K-12 institution nurturing faith, character, 
-            and academic excellence in every student.
+            {hero.subheadline}
           </motion.p>
 
           {/* CTA Buttons */}
@@ -66,11 +68,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 1.1 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button variant="hero" size="xl">
-              Enroll Today
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              Virtual Tour
+            <Button variant="hero" size="xl" asChild>
+              <a href={mailtoLink}>{hero.cta.text}</a>
             </Button>
           </motion.div>
         </motion.div>
