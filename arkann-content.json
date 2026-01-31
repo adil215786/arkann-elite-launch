@@ -26,7 +26,7 @@
     "phone": "561-306-0065",
     "phoneFormatted": "(561) 306-0065",
     "email": "arkannacademy@gmail.com",
-    "officeHours": "8:00 AM - 3:00 PM"
+    "officeHours": "8:00 AM - 3:00 PM (Monday-Friday)"
   },
 
   "social": {
@@ -52,7 +52,7 @@
   },
 
   "hero": {
-    "headline": "A Caring Microschool Where Faith, Character, and Academics Grow Together",
+    "headline": "A Caring specialized Academy Where Faith, Character, and Academics Grow Together",
     "subheadline": "Personalized learning in small groups, grounded in Islamic values, designed for children who deserve to be seen, known, and guided.",
     "cta": {
       "text": "Request an Invitation",

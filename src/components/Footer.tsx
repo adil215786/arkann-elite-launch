@@ -5,7 +5,7 @@ import arkannContent from "@/data/arkannContent";
 import { buildMailtoLink } from "@/lib/utils";
 
 const Footer = () => {
-  const { contact, social, emailTemplates, siteInfo } = arkannContent;
+  const { contact, social, emailTemplates, siteInfo, schedule } = arkannContent;
   const mailtoLink = buildMailtoLink({
     to: emailTemplates.invitationRequest.to,
     subject: emailTemplates.invitationRequest.subject,
@@ -106,7 +106,15 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h4 className="text-cream font-serif text-lg mb-6">Visit</h4>
-            <p className="text-cream/60 text-sm leading-relaxed mb-4">
+            <p className="text-cream/60 text-sm leading-relaxed mb-2">
+              School hours:
+            </p>
+            <p className="text-cream/60 text-sm leading-relaxed">
+              Monday-Thursday: {schedule.hours.mondayThursday}
+              <br />
+              Friday: {schedule.hours.friday}
+            </p>
+            <p className="text-cream/60 text-sm leading-relaxed mt-3">
               Office hours: {contact.officeHours}
             </p>
             <a
