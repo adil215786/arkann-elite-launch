@@ -1,120 +1,107 @@
 import { motion } from "framer-motion";
-import arkannContent from "@/data/arkannContent";
+import hananImg from "@/assets/hanan.jpg";
+import dannaImg from "@/assets/Danna.jpg";
+import haythamImg from "@/assets/Haytham.jpg";
+import layannImg from "@/assets/Layann.jpg";
+import fatenImg from "@/assets/Faten.jpg";
+
+const team = [
+  {
+    id: 1,
+    name: "Hanan Khalil",
+    role: "Founder & Director",
+    image: hananImg,
+    bio: "Holds a bachelor's degree from FAU and a certificate in Islamic Studies from International Open University (IOU), with training in Tajweed and Qur'an memorization. She has inspired many children through volunteer work and after-school youth programs.",
+    isFounder: true,
+  },
+  {
+    id: 2,
+    name: "Danna Elzagha",
+    role: "Lead Instructor",
+    image: dannaImg,
+    bio: "Certified K–6 teacher with 17 years of classroom experience. Holds a Bachelor's degree in Elementary Education and is known for exceptional classroom management that fosters a structured, respectful, and engaging learning environment.",
+    isFounder: false,
+  },
+  {
+    id: 3,
+    name: "Haytham Khalaf",
+    role: "Qur'an & Islamic Studies Instructor",
+    image: haythamImg,
+    bio: "Brings over ten years of experience teaching Tajweed, Qur'anic recitation, Arabic language, and Islamic studies. Holds a Bachelor's degree in Business Administration with a concentration in International Business & Trade from Florida Atlantic University.",
+    isFounder: false,
+  },
+  {
+    id: 4,
+    name: "Layann Abdallah",
+    role: "Math Instructor",
+    image: layannImg,
+    bio: "Graduate of Florida Atlantic University with a degree in Secondary Mathematics Education (6–12th grade). Holds a professional teaching certificate with four years of tutoring experience (K–12) and classroom experience in public school settings.",
+    isFounder: false,
+  },
+  {
+    id: 5,
+    name: "Faten Atway",
+    role: "Science Instructor & Administrator",
+    image: fatenImg,
+    bio: "Holds a Master's degree in Secondary Science Education from the University of South Florida and a Master's in Curriculum and Instruction with a focus on Educational Leadership from FAU. Florida certified in Chemistry (6–12) and Middle Grades Science (5–9). Over 20 years of teaching experience, with 17 years in grades 4–12, progressing from classroom instructor to teaching mentor to school administration.",
+    isFounder: false,
+  },
+];
 
 const MeetInstructors = () => {
-  const { staff } = arkannContent;
-  const photoMap: Record<string, string> = {
-    "Hanan Khalil": "https://cdn.pixabay.com/photo/2024/11/13/20/49/ai-generated-9195476_1280.jpg",
-    "Danna Elzagha": "https://cdn.pixabay.com/photo/2024/11/13/20/49/ai-generated-9195475_1280.jpg",
-    "Layann Abdallah": "https://cdn.pixabay.com/photo/2024/07/14/15/29/ai-generated-8894720_1280.png",
-    "Haytham Khalaf": "https://cdn.pixabay.com/photo/2024/12/05/15/22/ai-generated-9246868_1280.jpg",
-    "Faten Atway": "https://cdn.pixabay.com/photo/2024/03/13/20/28/ai-generated-8631903_1280.png",
-  };
-
-  const getByName = (name: string) => staff.find((member) => member.name === name);
-  const founder = getByName("Hanan Khalil");
-  const rowOne = ["Danna Elzagha", "Layann Abdallah"]
-    .map(getByName)
-    .filter(Boolean);
-  const rowTwo = ["Haytham Khalaf", "Faten Atway"]
-    .map(getByName)
-    .filter(Boolean);
-
-  const renderCard = (member: typeof staff[number], highlight?: boolean) => {
-    const details = [member.credentials, member.experience, member.bio]
-      .filter(Boolean)
-      .join(" ");
-    const badge = highlight ? "Founder" : null;
-    const photoSrc = photoMap[member.name] || `${import.meta.env.BASE_URL}placeholder.svg`;
-
-    return (
-      <div className="text-center max-w-xs">
-        <div className="relative mx-auto mb-6 h-44 w-44">
-          <div className="absolute inset-0 rounded-full border-2 border-gold/25 shadow-soft" />
-          <img
-            src={photoSrc}
-            alt={`${member.name} portrait`}
-            className="h-full w-full rounded-full object-cover bg-cream-dark shadow-card"
-          />
-          {badge && (
-            <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-gold px-4 py-1 text-[0.65rem] font-semibold uppercase tracking-widest text-primary shadow-soft">
-              {badge}
-            </div>
-          )}
-        </div>
-        <h3 className="font-serif text-xl text-navy mb-2">
-          {member.name}
-        </h3>
-        <p className="text-gold text-xs uppercase tracking-[0.3em] mb-3">
-          {member.title}
-        </p>
-        {details && (
-          <p className="text-muted-foreground text-sm leading-relaxed">
-            {details}
-          </p>
-        )}
-      </div>
-    );
-  };
-
   return (
-    <div id="meet-instructors" className="mt-20 lg:mt-24">
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.8 }}
-        className="text-center max-w-3xl mx-auto mb-16"
-      >
-        <p className="text-gold text-xs tracking-[0.35em] uppercase font-medium mb-4">
-          Our Team
-        </p>
-        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-navy text-balance">
-          Meet the Instructors
-        </h2>
-        <p className="text-muted-foreground text-lg mt-4">
-          Dedicated professionals committed to nurturing both minds and hearts.
-        </p>
-      </motion.div>
-
-      <div className="flex flex-col items-center">
-        {founder && (
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-            className="mb-12"
-          >
-            {renderCard(founder, true)}
-          </motion.div>
-        )}
-
+    <section id="meet-instructors" className="py-20 lg:py-28 bg-cream">
+      <div className="container">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12"
+          viewport={{ once: true, margin: "-120px" }}
+          transition={{ duration: 0.7 }}
+          className="text-center max-w-3xl mx-auto mb-14"
         >
-          {rowOne.map((member) => (
-            <div key={member!.name}>{renderCard(member!)}</div>
-          ))}
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-navy text-balance">
+            Meet the Instructors
+          </h2>
+          <p className="text-lg text-[#666] mt-4">
+            Dedicated professionals committed to nurturing both minds and hearts.
+          </p>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-12"
-        >
-          {rowTwo.map((member) => (
-            <div key={member!.name}>{renderCard(member!)}</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10">
+          {team.map((member, index) => (
+            <motion.div
+              key={member.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-120px" }}
+              transition={{ duration: 0.6, delay: index * 0.05 }}
+              className="group bg-white rounded-3xl p-6 text-center shadow-soft hover:shadow-elevated transition-all duration-300 hover:-translate-y-2"
+            >
+              <div className="relative mx-auto mb-6 h-36 w-36">
+                <div className="absolute inset-0 rounded-full border border-gold/30 transition-colors duration-300 group-hover:border-gold" />
+                <img
+                  src={member.image}
+                  alt={`${member.name} portrait`}
+                  className="h-full w-full rounded-full object-cover border-2 border-transparent transition-colors duration-300 group-hover:border-gold"
+                />
+                {member.isFounder && (
+                  <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-gold px-4 py-1 text-[0.65rem] font-semibold uppercase tracking-widest text-white shadow-soft">
+                    Founder
+                  </div>
+                )}
+              </div>
+              <h3 className="font-serif text-lg text-navy mb-2">{member.name}</h3>
+              <p className="text-gold text-xs uppercase tracking-[0.25em] mb-3">
+                {member.role}
+              </p>
+              <p className="text-sm text-[#666] leading-relaxed">
+                {member.bio}
+              </p>
+            </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

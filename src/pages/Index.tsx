@@ -3,6 +3,7 @@ import HeroSection from '@/components/HeroSection';
 import ValuesSection from '@/components/ValuesSection';
 import FeaturedCards from '@/components/FeaturedCards';
 import PrincipalWelcome from '@/components/PrincipalWelcome';
+import MeetInstructors from '@/components/MeetInstructors';
 import LatestNews from '@/components/LatestNews';
 import Footer from '@/components/Footer';
 import AcademicsSection from '@/components/AcademicsSection';
@@ -19,6 +20,7 @@ const Index = () => {
       <FeaturedCards />
       <AcademicsSection />
       <PrincipalWelcome />
+      <MeetInstructors />
       <AdmissionsSection />
       <CtaSection />
       <InvitationForm />
