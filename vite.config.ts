@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/arkann-elite-launch/",
+  base: mode === "production" ? "/arkann-elite-launch/" : "/",
   server: {
     host: "::",
     port: 8080,
