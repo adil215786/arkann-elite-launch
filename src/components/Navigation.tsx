@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import arkannLogo from '@/assets/arkann-logo.jpeg';
 
 const navLinks = [
+  { label: 'About', href: '#about' },
   { label: 'Academics', href: '#academics' },
   { label: 'Islamic Program', href: '#islamic-program' },
   { label: 'Admissions', href: '#admissions' },

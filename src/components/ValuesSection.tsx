@@ -6,7 +6,7 @@ const ValuesSection = () => {
   const { whoIsArkannFor, about } = arkannContent;
 
   return (
-    <section id="about" className="py-24 lg:py-32 bg-cream">
+    <section id="about" className="scroll-mt-28 py-24 lg:py-32 bg-cream">
       <div className="container mx-auto px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

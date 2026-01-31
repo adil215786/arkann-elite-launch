@@ -63,7 +63,7 @@ const AcademicsSection = () => {
           </div>
         </div>
 
-        <div id="islamic-program" className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
+        <div id="islamic-program" className="scroll-mt-28 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           <div className="bg-card rounded-3xl p-8 lg:p-10 shadow-card">
             <p className="text-gold text-sm tracking-[0.25em] uppercase font-medium mb-4">
               Islamic Program
