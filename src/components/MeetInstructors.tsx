@@ -3,6 +3,7 @@ import arkannContent from "@/data/arkannContent";
 
 const MeetInstructors = () => {
   const { staff } = arkannContent;
+  const placeholderSrc = `${import.meta.env.BASE_URL}placeholder.svg`;
 
   return (
     <section id="meet-instructors" className="py-24 lg:py-32 bg-cream">
@@ -45,7 +46,7 @@ const MeetInstructors = () => {
                 <div className="relative mx-auto mb-6 h-44 w-44">
                   <div className="absolute inset-0 rounded-full border-2 border-gold/25 shadow-soft" />
                   <img
-                    src="/placeholder.svg"
+                    src={placeholderSrc}
                     alt={`${member.name} portrait`}
                     className="h-full w-full rounded-full object-cover bg-cream-dark shadow-card"
                   />
