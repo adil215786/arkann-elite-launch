@@ -12,7 +12,7 @@ const team = [
     role: "Founder & Director",
     credentials:
       "B.A. from FAU • Islamic Studies Certificate (IOU) • Tajweed & Qur'an Training",
-    bio: "Inspired many children through volunteer work and after-school youth programs.",
+    bio: "Holds a bachelor's degree from Florida Atlantic University and a certificate in Islamic Studies from International Open University (IOU), complemented by specialized training in Tajweed and Qur'an memorization. With a deep passion for nurturing young hearts and minds, she has inspired many children through dedicated volunteer work and after-school youth programs, bringing both knowledge and compassion to Islamic education.",
     image: hananImg,
     isFounder: true,
   },
@@ -21,7 +21,7 @@ const team = [
     name: "Danna Elzagha",
     role: "Lead Instructor",
     credentials: "B.A. Elementary Education • K–6 Certified • 17 Years Experience",
-    bio: "Known for exceptional classroom management that fosters a structured, respectful, and engaging learning environment.",
+    bio: "A certified K–6 teacher with 17 years of classroom experience and a Bachelor's degree in Elementary Education. She is known for exceptional classroom management skills that foster a structured, respectful, and engaging learning environment. Throughout her career, she has supported students' academic growth through effective instructional practices, clear expectations, and a strong commitment to student success.",
     image: dannaImg,
   },
   {
@@ -29,7 +29,7 @@ const team = [
     name: "Haytham Khalaf",
     role: "Qur'an & Islamic Studies",
     credentials: "B.A. Business Administration (FAU) • 10+ Years Teaching",
-    bio: "Specializes in Tajweed, Qur'anic recitation, Arabic language, and Islamic studies.",
+    bio: "Brings over ten years of dedicated experience teaching Tajweed, Qur'anic recitation, Arabic language, and Islamic studies. He holds a Bachelor's degree in Business Administration with a concentration in International Business & Trade from Florida Atlantic University. His unique blend of professional education and deep Islamic knowledge allows him to connect with students in meaningful ways.",
     image: haythamImg,
   },
   {
@@ -38,7 +38,7 @@ const team = [
     role: "Math Instructor",
     credentials:
       "B.A. Secondary Math Education (FAU) • Professional Teaching Certificate",
-    bio: "Four years of K–12 tutoring experience combined with public school classroom teaching.",
+    bio: "A graduate of Florida Atlantic University where she studied Secondary Mathematics Education (6–12th grade) and earned her professional teaching certificate. She has been tutoring students from K–12 for four years and brings valuable experience from teaching in public school settings, combining patience with a passion for making math accessible to every learner.",
     image: layannImg,
   },
   {
@@ -47,7 +47,7 @@ const team = [
     role: "Science & Administration",
     credentials:
       "M.A. Science Education (USF) • M.A. Educational Leadership (FAU) • 20+ Years",
-    bio: "Florida certified in Chemistry and Middle Grades Science. Progressed from classroom instructor to teaching mentor to administration.",
+    bio: "Holds a Master's degree in Secondary Science Education from the University of South Florida and a Master's in Curriculum and Instruction with a focus on Educational Leadership from Florida Atlantic University. Florida certified in Chemistry (6–12) and Middle Grades Science (5–9), she brings over 20 years of teaching experience. She progressed from 17 years in the classroom to teaching mentor, and then to school administration, where she continues working to improve academic achievement and school culture.",
     image: fatenImg,
   },
 ];
