@@ -379,21 +379,21 @@ Hanan Khalil - Founder & Owner
 - Bachelor of General Studies, Minor in Business Management
 - Qur'an Hifz program graduate
 
-Danna Elzagha - Lead Teacher
+Danna Elzagha - Lead Instructor
 - K-5 Certified
 - Upper School Math & Science Certified
 - 16 years teaching experience
 
-Layann Abdallah - Teacher
+Layann Abdallah - Instructor
 - Education Major Graduate
 - Upper School Math Teaching Certified
 
 Haytham Khalaf - Islamic Studies & Qur'an
-- Islamic Studies Teacher
+- Islamic Studies Instructor
 - Qur'an Instructor
 
-Faten Atway - Science Teacher
-- Upper School Certified Science Teacher
+Faten Atway - Science Instructor
+- Upper School Certified Science Instructor
 ```
 
 ---
