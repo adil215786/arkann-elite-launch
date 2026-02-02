@@ -46,8 +46,8 @@ const team = [
     name: "Faten Atway",
     role: "Academic Coach",
     credentials:
-      "M.A. Science Education (USF) • M.A. Educational Leadership (FAU) • 20+ Years",
-    bio: "Holds a Master's degree in Secondary Science Education from the University of South Florida and a Master's in Curriculum and Instruction with a focus on Educational Leadership from Florida Atlantic University. Florida certified in Chemistry (6–12) and Middle Grades Science (5–9), she brings over 20 years of teaching experience. She progressed from 17 years in the classroom to teaching mentor, and then to school administration, where she continues working to improve academic achievement and school culture.",
+      "B.S. Secondary Science Education (USF) - M.Ed. Curriculum & Instruction (FAU) - 20+ Years",
+    bio: "Faten holds a bachelor's degree in Secondary Science Education from the University of South Florida and a master's degree in Curriculum and Instruction (Educational Leadership) from Florida Atlantic University. She holds a Florida Professional Teaching Certificate in Chemistry (6-12) and Middle Grades Science (5-9). With over 20 years in education, including 17 years in grades 4-12 classrooms, she advanced from teacher to mentor and then into school administration, where she focuses on improving academic achievement and school culture.",
     image: fatenImg,
   },
 ];
