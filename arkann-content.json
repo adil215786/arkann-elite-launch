@@ -2,13 +2,12 @@
   "siteInfo": {
     "name": "Arkann Academy",
     "tagline": "Nurturing minds and hearts",
-    "description": "A Nurturing Microschool Where Faith, Character, and Strong Academics Grow Together",
+    "description": "A nurturing in-person microschool inside the Islamic Center of Boca Raton (ICBR), where faith, character, and strong academics grow together.",
     "type": "Islamic Private Microschool",
     "grades": "3rd-8th Grade (Elementary & Middle)",
     "yearFounded": 2026,
     "currentUrl": "https://www.arkann.org/"
   },
-
   "contact": {
     "address": {
       "street": "3480 NW 5th Ave.",
@@ -23,19 +22,17 @@
       "state": "FL",
       "zip": "33496"
     },
-    "phone": "561-306-0065",
-    "phoneFormatted": "(561) 306-0065",
-    "email": "arkannacademy@gmail.com",
+    "phone": "561-376-2257",
+    "phoneFormatted": "561-376-2257",
+    "email": "contact@arkann.org",
     "officeHours": "8:00 AM - 3:00 PM (Monday-Friday)"
   },
-
   "social": {
     "instagram": {
       "handle": "@arkannacademy",
       "url": "https://www.instagram.com/arkannacademy"
     }
   },
-
   "branding": {
     "colors": {
       "primary": "#1A3A5C",
@@ -50,18 +47,16 @@
       "description": "Navy and gold design"
     }
   },
-
   "hero": {
-    "headline": "A Caring specialized Academy Where Faith, Character, and Academics Grow Together",
-    "subheadline": "Personalized learning in small groups, grounded in Islamic values, designed for children who deserve to be seen, known, and guided.",
+    "headline": "A Caring Specialized Academy Where Faith, Character, and Academics Grow Together",
+    "subheadline": "",
     "cta": {
-      "text": "Request an Invitation",
+      "text": "Start Here",
       "action": "email",
-      "email": "arkannacademy@gmail.com",
+      "email": "contact@arkann.org",
       "subject": "invitation request"
     }
   },
-
   "whoIsArkannFor": {
     "sectionTitle": "WHO IS ARKANN FOR",
     "header": "Arkann Academy Is For Families Who…",
@@ -71,9 +66,8 @@
       "Believe faith should be lived daily, not added on",
       "Prefer depth over speed, mastery over pressure"
     ],
-    "disclaimer": "Arkann may not be the right fit for families seeking large classrooms, test-driven instruction, or conventional school models."
+    "disclaimer": "Arkann is designed for families who seek education rooted in purpose and character."
   },
-
   "differentiators": [
     {
       "id": "small-by-design",
@@ -91,7 +85,6 @@
       "description": "Islamic values are woven into daily life, not confined to a single class period."
     }
   ],
-
   "parentConcerns": {
     "header": "We Understand What Parents Are Worried About",
     "body": "Many families come to Arkann feeling torn between academic excellence and preserving their child's faith, confidence, and emotional well-being.\n\nArkann was created so parents no longer have to choose.",
@@ -102,13 +95,11 @@
       "Clear expectations"
     ]
   },
-
   "ctaSection": {
     "header": "Considering Arkann Academy?",
     "body": "We invite families who value intention, character, and meaningful learning to explore whether Arkann is the right fit for their child.",
-    "buttonText": "Request an Invite"
+    "buttonText": "Start Here"
   },
-
   "faqs": [
     {
       "id": 1,
@@ -147,36 +138,25 @@
     },
     {
       "id": 8,
-      "question": "Do students take standardized tests?",
-      "answer": "Arkann prioritizes mastery and growth over test performance alone. When required, assessments are approached thoughtfully and used as tools—not labels—to inform instruction."
+      "question": "Do student take standardized testing ?",
+      "answer": "We follow state requirements for standardized testing which are done on campus at Arkann academy."
     },
     {
       "id": 9,
       "question": "What grades does Arkann serve?",
-      "answer": "Arkann serves a limited range of elementary and middle-grade students. Specific grade offerings may vary by year based on enrollment and community needs."
+      "answer": "Arakann currently serves 3rd to 8th grade."
     },
     {
       "id": 10,
-      "question": "Is Arkann accredited?",
-      "answer": "Arkann operates as a private microschool and follows all applicable state requirements. Our focus is on providing a high-quality educational experience rooted in integrity, intention, and accountability."
+      "question": "How does enrollment work?",
+      "answer": "After the request enrollment conversation form is filled out team will contact you to start the conversation about enrollment."
     },
     {
       "id": 11,
-      "question": "How does enrollment work?",
-      "answer": "Arkann enrollment is by invitation. Families are encouraged to request an invitation so we can determine alignment and ensure Arkann is a good fit for both the child and the community."
-    },
-    {
-      "id": 12,
-      "question": "Why is enrollment limited?",
-      "answer": "We believe children thrive when schools grow with intention. Limiting enrollment protects the quality of relationships, instruction, and care that define Arkann Academy."
-    },
-    {
-      "id": 13,
       "question": "What makes Arkann different from other Islamic schools?",
       "answer": "Arkann is intentionally small, deeply personal, and thoughtfully designed. We prioritize presence over pressure, character over competition, and depth over scale—while holding academics and faith to equally high standards."
     }
   ],
-
   "about": {
     "mission": "At Arkann Academy, our mission is to cultivate grounded, capable, and purposeful children through a calm, intentional learning environment that honors each child's individuality, nurtures strong character rooted in Islamic values, and delivers rigorous, personalized academics without haste, excess, or compromise.",
     "vision": "We envision children who grow with knowledge, character, and faith—prepared not only for academic success, but for a meaningful life.",
@@ -200,7 +180,6 @@
     ],
     "story": "Arkann Academy was founded out of a deep conviction that children thrive when education is calm, intentional, and rooted in values. After years of observing the gap between academic rigor and character development, Arkann was created to offer a small, purpose-driven environment where both are nurtured together."
   },
-
   "academics": {
     "philosophy": "Skill-based, personalized learning in small classes with a calm environment and easy transitions.",
     "approach": "Students learn in small groups to allow for targeted instruction, meaningful discussion, and real-time feedback. Lessons are informed by each child's readiness and progress. Concepts are reinforced through hands-on activities.",
@@ -221,10 +200,15 @@
         "Quizzes and unit assessments",
         "Diagnostic and progress-monitoring checkpoints"
       ],
-      "reportCards": "Quarterly"
+      "reportCards": "Quarterly",
+      "progressSupports": [
+        "Parent progress summaries: short written updates.",
+        "Intervention checkpoints: early identification of gaps.",
+        "Behavioral and character development observations tied to values.",
+        "Written teacher feedback: narrative feedback beyond grades."
+      ]
     }
   },
-
   "islamicProgram": {
     "quran": {
       "frequency": "Daily",
@@ -232,7 +216,7 @@
     },
     "islamicStudies": [
       "Imam Ghazali Children's Series",
-      "75% of the words used in the Qur'an",
+      "500 words that make 75% of the Quran ?",
       "History of Islam",
       "Seerah lessons and stories",
       "Prophet stories"
@@ -240,7 +224,6 @@
     "faithIntegration": "Faith at Arkann is lived, not added on. Islamic values, adab, and reflection are woven naturally into daily routines, conversations, and relationships.",
     "prayer": true
   },
-
   "schedule": {
     "hours": {
       "mondayThursday": "8:00 AM - 2:45 PM",
@@ -249,25 +232,32 @@
     "lunch": "Bring from home; small school store available",
     "uniform": "Required - purchased from Arkann Academy"
   },
-
   "enrollment": {
     "type": "By invitation",
     "philosophy": "Selective, values alignment required",
-    "process": ["Inquiry", "Application", "Register"],
+    "process": [
+      "Inquiry",
+      "Application",
+      "Register"
+    ],
     "openDate": "February 1, 2026",
-    "requiredDocuments": ["Birth Certificate"]
+    "requiredDocuments": [
+      "Birth Certificate"
+    ]
   },
-
   "tuition": {
     "amount": 1100,
     "displayOnWebsite": true,
     "scholarships": {
       "accepted": true,
-      "types": ["FTC", "FES-EO", "FES-UA"],
+      "types": [
+        "FTC",
+        "FES-EO",
+        "FES-UA"
+      ],
       "description": "Arkann Academy welcomes students using Florida state scholarships, including FTC, FES-EO, and FES-UA, in accordance with state program guidelines."
     }
   },
-
   "staff": [
     {
       "name": "Hanan Khalil",
@@ -300,15 +290,13 @@
       "photo": null
     }
   ],
-
   "emailTemplates": {
     "invitationRequest": {
-      "to": "arkannacademy@gmail.com",
+      "to": "contact@arkann.org",
       "subject": "invitation request",
       "body": "Assalamu Alaikum,\n\nI am writing to request an invitation to learn more about Arkann Academy.\n\nMy child is ___ years old and currently in ___ grade. We are seeking a learning environment that supports strong academics while nurturing character, confidence, and Islamic values.\n\nAfter learning about Arkann Academy, we feel its philosophy and approach may be a good fit for our family, and we would appreciate the opportunity to explore this further.\n\nThank you for your time and consideration.\n\nSincerely,\n[Parent Name]\n[Child's Name]\n[Phone Number]"
     }
   },
-
   "seo": {
     "title": "Arkann Academy | Islamic Microschool in Boca Raton, FL",
     "description": "A nurturing microschool where faith, character, and strong academics grow together. Personalized learning grounded in Islamic values for grades 3-8 in Boca Raton.",

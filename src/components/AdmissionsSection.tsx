@@ -25,7 +25,7 @@ const AdmissionsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           <div className="bg-card rounded-3xl p-8 lg:p-10 shadow-card">
             <h3 className="font-serif text-2xl text-navy mb-4">
-              How enrollment works
+              How enrollment works :
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
               {enrollment.philosophy}
@@ -49,11 +49,11 @@ const AdmissionsSection = () => {
           </div>
 
           <div className="bg-navy rounded-3xl p-8 lg:p-10 text-cream shadow-elevated">
-            <h3 className="font-serif text-2xl mb-4">Tuition & hours</h3>
+            <h3 className="font-serif text-2xl mb-4">Tuition & Hours</h3>
             {tuition.displayOnWebsite && (
               <p className="text-cream/85 leading-relaxed mb-4">
-                Tuition is ${tuition.amount.toLocaleString()} per month. Florida state
-                scholarships accepted: {tuition.scholarships.types.join(", ")}.
+                Tuition is ${tuition.amount.toLocaleString()} per month per student.
+                Florida state scholarships accepted: {tuition.scholarships.types.join(", ")}.
               </p>
             )}
             <p className="text-cream/70 text-sm mb-6">

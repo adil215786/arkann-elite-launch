@@ -81,7 +81,7 @@ Arkann Academy Is For Families Who…
 
 ### Disclaimer Text
 ```
-Arkann may not be the right fit for families seeking large classrooms, test-driven instruction, or conventional school models.
+Arkann is designed for families who seek education rooted in purpose and character.
 ```
 
 ---

@@ -5,7 +5,7 @@ const FeaturedCards = () => {
   const { differentiators } = arkannContent;
 
   return (
-    <section className="py-24 lg:py-32 bg-cream-dark">
+    <section className="pt-14 pb-24 lg:pt-16 lg:pb-32 bg-cream-dark">
       <div className="container mx-auto px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -30,11 +30,8 @@ const FeaturedCards = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.7, delay: index * 0.15 }}
-              className="bg-card rounded-3xl p-8 lg:p-10 shadow-card"
+              className="bg-card rounded-3xl p-8 lg:p-10 shadow-card text-center"
             >
-              <div className="text-gold text-sm tracking-[0.3em] uppercase font-medium mb-4">
-                {String(index + 1).padStart(2, "0")}
-              </div>
               <h3 className="font-serif text-2xl text-navy mb-4">
                 {item.title}
               </h3>

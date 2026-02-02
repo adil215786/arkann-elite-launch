@@ -60,6 +60,14 @@ const AcademicsSection = () => {
             <p className="mt-6 text-cream/70 text-sm">
               Report cards: {academics.assessment.reportCards}
             </p>
+            <ul className="mt-4 space-y-2 text-cream/75 text-sm">
+              {academics.assessment.progressSupports.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold/90 shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

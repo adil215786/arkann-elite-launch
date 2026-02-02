@@ -46,11 +46,11 @@ const Navigation = () => {
               alt="Arkann Academy" 
               className="h-12 w-auto rounded-lg shadow-soft group-hover:shadow-card transition-shadow duration-300"
             />
-            <div className="hidden sm:flex flex-col">
-              <span className="text-cream font-serif text-xl font-semibold tracking-wide">
+            <div className="flex flex-col">
+              <span className="text-cream font-serif text-base font-semibold leading-none tracking-wide sm:text-xl">
                 ARKANN
               </span>
-              <span className="text-gold text-xs tracking-[0.3em] uppercase">
+              <span className="text-gold text-[10px] tracking-[0.22em] uppercase sm:text-xs sm:tracking-[0.3em]">
                 Academy
               </span>
             </div>
@@ -73,7 +73,7 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <Button variant="navSolid" size="lg" asChild>
-              <a href={mailtoLink}>Request an Invitation</a>
+              <a href={mailtoLink}>Start Here</a>
             </Button>
           </div>
 
@@ -93,9 +93,9 @@ const Navigation = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="lg:hidden mt-6 pb-6 border-t border-cream/10"
+            className="lg:hidden mt-6 rounded-2xl bg-navy/95 shadow-elevated border border-cream/10"
           >
-            <div className="flex flex-col gap-4 pt-6">
+            <div className="flex flex-col gap-4 p-6">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
@@ -106,9 +106,6 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="navSolid" size="lg" className="mt-4 w-full" asChild>
-                <a href={mailtoLink}>Request an Invitation</a>
-              </Button>
             </div>
           </motion.div>
         )}

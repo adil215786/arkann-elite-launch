@@ -63,6 +63,8 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gold shrink-0 mt-0.5" />
                 <span className="text-cream/60 text-sm">
+                  Islamic Center of Boca Raton (ICBR)
+                  <br />
                   {contact.address.street}
                   <br />
                   {contact.address.city}, {contact.address.state} {contact.address.zip}
@@ -121,7 +123,7 @@ const Footer = () => {
               href={inviteAnchor}
               className="inline-flex items-center text-gold text-sm uppercase tracking-[0.3em] font-medium hover:text-cream transition-colors"
             >
-              Request an invitation
+              Start Here
             </a>
           </motion.div>
         </div>

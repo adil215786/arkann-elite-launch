@@ -51,11 +51,8 @@ const ValuesSection = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="bg-navy text-cream rounded-3xl p-8 lg:p-10 shadow-elevated"
           >
-            <p className="text-gold text-sm tracking-[0.25em] uppercase font-medium mb-4">
-              A Thoughtful Fit
-            </p>
             <p className="text-cream/85 text-lg leading-relaxed">
-              {whoIsArkannFor.disclaimer}
+              Arkann is designed for families who seek education rooted in purpose and character.
             </p>
           </motion.div>
         </div>
