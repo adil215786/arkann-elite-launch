@@ -46,13 +46,23 @@ const AdmissionsSection = () => {
           </div>
 
           <div className="bg-navy rounded-3xl p-8 lg:p-10 text-cream shadow-elevated">
-            <h3 className="font-serif text-2xl mb-4">Investment & Contact</h3>
-            {tuition.displayOnWebsite && (
-              <p className="text-cream/85 leading-relaxed mb-6">
-                Monthly fee: ${tuition.amount.toLocaleString()} per student
-              </p>
-            )}
-            <div className="space-y-3 text-cream/85 text-sm">
+            <h3 className="font-serif text-2xl mb-6">Investment & Contact</h3>
+            
+            <div className="mb-8 space-y-4">
+              <div className="border-l-4 border-gold pl-4">
+                <p className="text-cream/90 text-lg font-medium mb-1">Full Time</p>
+                <p className="text-cream/70 text-sm mb-2">Covers all academic needs</p>
+                <p className="text-gold text-2xl font-semibold">${tuition.amount.toLocaleString()}<span className="text-cream/60 text-base font-normal">/month</span></p>
+              </div>
+              
+              <div className="border-l-4 border-gold pl-4">
+                <p className="text-cream/90 text-lg font-medium mb-1">Per Hour Tutoring</p>
+                <p className="text-cream/70 text-sm mb-2">By appointment</p>
+                <p className="text-gold text-2xl font-semibold">$75<span className="text-cream/60 text-base font-normal">/hour</span></p>
+              </div>
+            </div>
+
+            <div className="space-y-3 text-cream/85 text-sm border-t border-cream/10 pt-6">
               <p><span className="font-semibold text-gold">Phone:</span> {contact.phoneFormatted}</p>
               <p><span className="font-semibold text-gold">Email:</span> {contact.email}</p>
               <p><span className="font-semibold text-gold">Office hours:</span> {contact.officeHours}</p>

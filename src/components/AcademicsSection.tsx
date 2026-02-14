@@ -57,8 +57,8 @@ const AcademicsSection = () => {
                 </li>
               ))}
             </ul>
-            <p className="mt-6 text-cream/70 text-sm">
-              Report cards: {academics.assessment.reportCards}
+            <p className="mt-6 text-cream/85 text-base font-medium">
+              Parents will receive weekly progress reports from Prenda
             </p>
             <ul className="mt-4 space-y-2 text-cream/75 text-sm">
               {academics.assessment.progressSupports.map((item) => (
