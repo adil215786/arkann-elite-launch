@@ -2,8 +2,8 @@
   "siteInfo": {
     "name": "Arkann Academy",
     "tagline": "Nurturing minds and hearts",
-    "description": "A nurturing in-person microschool inside the Islamic Center of Boca Raton (ICBR), where faith, character, and strong academics grow together.",
-    "type": "Islamic Private Microschool",
+    "description": "A learning center designed for homeschooled kids to help them master their grade level in an Islamic environment.",
+    "type": "Learning Center",
     "grades": "3rd-8th Grade (Elementary & Middle)",
     "yearFounded": 2026,
     "currentUrl": "https://www.arkann.org/"
@@ -48,25 +48,31 @@
     }
   },
   "hero": {
-    "headline": "A Caring Specialized Academy Where Faith, Character, and Academics Grow Together",
-    "subheadline": "",
+    "headline": "A Learning Center Where Faith, Character, and Academic Excellence Grow Together",
+    "subheadline": "Supporting homeschooled students with skilled educators and enrichment activities in an Islamic environment",
     "cta": {
-      "text": "Start Here",
+      "text": "Contact Us",
       "action": "email",
       "email": "contact@arkann.org",
-      "subject": "invitation request"
+      "subject": "Inquiry about Arkann Learning Center"
     }
   },
   "whoIsArkannFor": {
     "sectionTitle": "WHO IS ARKANN FOR",
-    "header": "Arkann Academy Is For Families Who…",
+    "header": "Arkann Is For Homeschool Families Who…",
     "points": [
       "Value character and adab as much as academics",
-      "Want their child known as a person, not a number",
+      "Want personalized attention and flexible learning",
       "Believe faith should be lived daily, not added on",
       "Prefer depth over speed, mastery over pressure"
     ],
-    "disclaimer": "Arkann is designed for families who seek education rooted in purpose and character."
+    "disclaimer": "Arkann is designed for homeschool families who seek enrichment rooted in purpose and character.",
+    "rightBoxPoints": [
+      "We provide 1-1 tutoring and personalized support",
+      "Small group sizes ensure every child is known",
+      "Islamic values are woven into daily learning",
+      "Flexible approach that honors each family's homeschool journey"
+    ]
   },
   "differentiators": [
     {
@@ -96,70 +102,60 @@
     ]
   },
   "ctaSection": {
-    "header": "Considering Arkann Academy?",
-    "body": "We invite families who value intention, character, and meaningful learning to explore whether Arkann is the right fit for their child.",
-    "buttonText": "Start Here"
+    "header": "Ready to learn more about Arkann?",
+    "body": "We welcome homeschool families who value character, individualized attention, and an Islamic environment to reach out and learn more.",
+    "buttonText": "Contact Us"
   },
   "faqs": [
     {
       "id": 1,
-      "question": "Is Arkann Academy a full-time school?",
-      "answer": "Arkann Academy operates as a full-time, structured learning program during the academic year. Students attend daily and engage in a balanced schedule of academic learning, character development, and faith-centered experiences within a small, supportive environment."
+      "question": "Is Arkann Academy a private school?",
+      "answer": "No, Arkann is a learning center that falls under the Prenda umbrella of homeschooling centers around the United States."
     },
     {
       "id": 2,
-      "question": "How many students are in each class?",
-      "answer": "Enrollment is intentionally limited. Small groups allow our educators to truly know each student—their strengths, challenges, and pace—so learning remains personal rather than standardized."
+      "question": "What is Arkann?",
+      "answer": "Arkann is a learning center designed for homeschooled kids to help them master their grade level in an Islamic environment. We love the flexibility of homeschooling and help parents by providing enrichment activities to keep students engaged in learning with skilled educators."
     },
     {
       "id": 3,
-      "question": "What curriculum does Arkann use?",
-      "answer": "Arkann uses a personalized learning framework supported by high-quality academic resources and teacher guidance. Rather than a one-size-fits-all curriculum, instruction is adapted to meet students where they are and help them grow with confidence and depth."
+      "question": "What is Prenda?",
+      "answer": "Prenda is a homeschooling curriculum provider that focuses on building character while kids master curriculum based on the child's individual needs. Prenda individualizes the learning path for every student based on their grade level. Arkann is a Prenda learning hub."
     },
     {
       "id": 4,
-      "question": "How is faith integrated into the school day?",
-      "answer": "Faith at Arkann is lived, not added on. Islamic values, adab, and reflection are woven naturally into daily routines, conversations, and relationships—alongside dedicated time for Qur'an, Arabic, and Islamic Studies."
+      "question": "What kind of support does Arkann provide?",
+      "answer": "Arkann provides 1-1 tutoring whenever necessary for the child, enrichment activities, and a supportive Islamic environment where character and academics grow together."
     },
     {
       "id": 5,
-      "question": "Is Arkann right for high-achieving students?",
-      "answer": "Yes. Arkann is well suited for students who thrive with depth, independence, and thoughtful guidance. High-achieving students benefit from the ability to move ahead without pressure or comparison, while still being challenged meaningfully."
+      "question": "How is faith integrated at Arkann?",
+      "answer": "Faith at Arkann is lived daily. Islamic values, adab, and character development are woven naturally into the learning environment, alongside Qur'an, Arabic, and Islamic Studies."
     },
     {
       "id": 6,
-      "question": "Is Arkann suitable for children who need extra support?",
-      "answer": "Arkann's small setting allows teachers to notice and respond quickly when a child needs additional support. While we are not a specialized therapeutic program, many families appreciate the individualized attention and calm structure we provide."
+      "question": "What grades does Arkann serve?",
+      "answer": "Arkann currently serves students in grades 3rd through 8th."
     },
     {
       "id": 7,
-      "question": "How does Arkann prepare students academically for the future?",
-      "answer": "By focusing on strong foundational skills, critical thinking, and responsibility, Arkann prepares students not just for the next grade—but for lifelong learning. Students learn how to think, reflect, and engage with purpose."
+      "question": "Does Arkann provide math tutoring?",
+      "answer": "Yes, Arkann provides hourly math tutoring for students enrolled in FLVS Flex math courses, including Geometry, Algebra, Pre-Algebra, and Pre-Calculus."
     },
     {
       "id": 8,
-      "question": "Do student take standardized testing ?",
-      "answer": "We follow state requirements for standardized testing which are done on campus at Arkann academy."
+      "question": "How do I learn more about Arkann?",
+      "answer": "Contact us by email at contact@arkann.org or call 561-376-2257 to discuss your child's needs and learn more about our programs."
     },
     {
       "id": 9,
-      "question": "What grades does Arkann serve?",
-      "answer": "Arakann currently serves 3rd to 8th grade."
-    },
-    {
-      "id": 10,
-      "question": "How does enrollment work?",
-      "answer": "After the request enrollment conversation form is filled out team will contact you to start the conversation about enrollment."
-    },
-    {
-      "id": 11,
-      "question": "What makes Arkann different from other Islamic schools?",
-      "answer": "Arkann is intentionally small, deeply personal, and thoughtfully designed. We prioritize presence over pressure, character over competition, and depth over scale—while holding academics and faith to equally high standards."
+      "question": "Where is Arkann located?",
+      "answer": "Arkann is located at 3480 NW 5th Ave., Boca Raton, FL 33431."
     }
   ],
   "about": {
-    "mission": "At Arkann Academy, our mission is to cultivate grounded, capable, and purposeful children through a calm, intentional learning environment that honors each child's individuality, nurtures strong character rooted in Islamic values, and delivers rigorous, personalized academics without haste, excess, or compromise.",
-    "vision": "We envision children who grow with knowledge, character, and faith—prepared not only for academic success, but for a meaningful life.",
+    "mission": "Arkann is a learning center designed for homeschooled kids to help them master their grade level in an Islamic environment. We love the flexibility of homeschooling and help parents by providing enrichment activities to keep students engaged in learning with skilled educators.",
+    "vision": "We envision children who grow with knowledge, character, and faith—supported by individualized attention and a strong Islamic foundation.",
     "coreValues": [
       {
         "name": "Amanah",
@@ -181,8 +177,8 @@
     "story": "Arkann Academy was founded out of a deep conviction that children thrive when education is calm, intentional, and rooted in values. After years of observing the gap between academic rigor and character development, Arkann was created to offer a small, purpose-driven environment where both are nurtured together."
   },
   "academics": {
-    "philosophy": "Skill-based, personalized learning in small classes with a calm environment and easy transitions.",
-    "approach": "Students learn in small groups to allow for targeted instruction, meaningful discussion, and real-time feedback. Lessons are informed by each child's readiness and progress. Concepts are reinforced through hands-on activities.",
+    "philosophy": "Personalized, skill-based learning that supports each child's unique pace and needs.",
+    "approach": "Prenda is a homeschooling curriculum provider that Arkann falls under. Prenda focuses on building character while kids master homeschooling curriculum based on the child. Prenda draws the path and individualizes the year for every student based on their grade level. Arkann is a Prenda learning hub that provides 1-1 tutoring whenever it is necessary for the child.",
     "subjects": [
       "Math",
       "Science",
@@ -194,18 +190,17 @@
       "Islamic Studies"
     ],
     "assessment": {
-      "philosophy": "Mastery and growth over test performance",
+      "philosophy": "Mastery and growth through individualized support",
       "methods": [
-        "Skill checks",
-        "Quizzes and unit assessments",
-        "Diagnostic and progress-monitoring checkpoints"
+        "Skill-based progress tracking",
+        "One-on-one tutoring sessions",
+        "Parent communication and feedback"
       ],
-      "reportCards": "Quarterly",
+      "reportCards": "",
       "progressSupports": [
-        "Parent progress summaries: short written updates.",
-        "Intervention checkpoints: early identification of gaps.",
-        "Behavioral and character development observations tied to values.",
-        "Written teacher feedback: narrative feedback beyond grades."
+        "Regular parent updates on student progress",
+        "Individualized support whenever needed",
+        "Character development observations"
       ]
     }
   },
@@ -226,36 +221,30 @@
   },
   "schedule": {
     "hours": {
-      "mondayThursday": "8:00 AM - 2:45 PM",
-      "friday": "8:00 AM - 1:00 PM"
+      "mondayThursday": "Programs available during weekdays",
+      "friday": "Programs available during weekdays"
     },
-    "lunch": "Bring from home; small school store available",
-    "uniform": "Required - purchased from Arkann Academy"
+    "lunch": "",
+    "uniform": ""
   },
   "enrollment": {
-    "type": "By invitation",
-    "philosophy": "Selective, values alignment required",
+    "type": "Contact for information",
+    "philosophy": "Values-aligned families seeking homeschool support",
     "process": [
-      "Inquiry",
-      "Application",
-      "Register"
+      "Contact us by email or phone",
+      "Discuss your child's needs",
+      "Get started"
     ],
-    "openDate": "February 1, 2026",
-    "requiredDocuments": [
-      "Birth Certificate"
-    ]
+    "openDate": "August 2026",
+    "requiredDocuments": []
   },
   "tuition": {
     "amount": 1100,
     "displayOnWebsite": true,
     "scholarships": {
-      "accepted": true,
-      "types": [
-        "FTC",
-        "FES-EO",
-        "FES-UA"
-      ],
-      "description": "Arkann Academy welcomes students using Florida state scholarships, including FTC, FES-EO, and FES-UA, in accordance with state program guidelines."
+      "accepted": false,
+      "types": [],
+      "description": ""
     }
   },
   "staff": [
@@ -293,21 +282,21 @@
   "emailTemplates": {
     "invitationRequest": {
       "to": "contact@arkann.org",
-      "subject": "invitation request",
-      "body": "Assalamu Alaikum,\n\nI am writing to request an invitation to learn more about Arkann Academy.\n\nMy child is ___ years old and currently in ___ grade. We are seeking a learning environment that supports strong academics while nurturing character, confidence, and Islamic values.\n\nAfter learning about Arkann Academy, we feel its philosophy and approach may be a good fit for our family, and we would appreciate the opportunity to explore this further.\n\nThank you for your time and consideration.\n\nSincerely,\n[Parent Name]\n[Child's Name]\n[Phone Number]"
+      "subject": "Inquiry about Arkann Learning Center",
+      "body": "Assalamu Alaikum,\n\nI am writing to learn more about Arkann Learning Center.\n\nMy child is ___ years old and currently in ___ grade. We are homeschooling and seeking support through enrichment activities, tutoring, and an Islamic environment.\n\nAfter learning about Arkann, we feel it may be a good fit for our family, and we would appreciate the opportunity to discuss this further.\n\nThank you for your time.\n\nSincerely,\n[Parent Name]\n[Child's Name]\n[Phone Number]"
     }
   },
   "seo": {
-    "title": "Arkann Academy | Islamic Microschool in Boca Raton, FL",
-    "description": "A nurturing microschool where faith, character, and strong academics grow together. Personalized learning grounded in Islamic values for grades 3-8 in Boca Raton.",
+    "title": "Arkann Academy | Learning Center for Homeschooled Students in Boca Raton, FL",
+    "description": "A learning center for homeschooled students in an Islamic environment. Providing 1-1 tutoring, enrichment activities, and character development for grades 3-8 in Boca Raton.",
     "keywords": [
-      "Islamic school Boca Raton",
-      "microschool Florida",
-      "Islamic education",
+      "homeschool support Boca Raton",
+      "Islamic learning center Florida",
+      "homeschool tutoring",
       "personalized learning",
       "character education",
-      "private school Boca Raton",
-      "Muslim school Florida"
+      "Prenda learning hub",
+      "Muslim homeschool Florida"
     ]
   }
 }

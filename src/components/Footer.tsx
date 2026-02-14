@@ -63,8 +63,6 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gold shrink-0 mt-0.5" />
                 <span className="text-cream/60 text-sm">
-                  Islamic Center of Boca Raton (ICBR)
-                  <br />
                   {contact.address.street}
                   <br />
                   {contact.address.city}, {contact.address.state} {contact.address.zip}
@@ -107,16 +105,11 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h4 className="text-cream font-serif text-lg mb-6">Visit</h4>
-            <p className="text-cream/60 text-sm leading-relaxed mb-2">
-              School hours:
+            <h4 className="text-cream font-serif text-lg mb-6">Contact Us</h4>
+            <p className="text-cream/60 text-sm leading-relaxed mb-6">
+              Reach out to discuss your child's needs and learn more about our programs.
             </p>
             <p className="text-cream/60 text-sm leading-relaxed">
-              Monday-Thursday: {schedule.hours.mondayThursday}
-              <br />
-              Friday: {schedule.hours.friday}
-            </p>
-            <p className="text-cream/60 text-sm leading-relaxed mt-3">
               Office hours: {contact.officeHours}
             </p>
             <a

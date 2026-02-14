@@ -70,7 +70,7 @@ const InvitationForm = () => {
             Share a few details and we will follow up
           </h2>
           <p className="text-muted-foreground text-lg mt-4">
-            We keep enrollment intentionally small to ensure every child is known and supported.
+            We keep our groups intentionally small to ensure every child receives personalized attention.
           </p>
         </motion.div>
 
@@ -118,7 +118,7 @@ const InvitationForm = () => {
 
             <div className="flex flex-col gap-2">
               <label className="text-sm font-medium text-navy" htmlFor="childrenCount">
-                Number of Children to Enroll
+                Number of Children
               </label>
               <input
                 id="childrenCount"

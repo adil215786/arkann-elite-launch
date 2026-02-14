@@ -51,9 +51,17 @@ const ValuesSection = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="bg-navy text-cream rounded-3xl p-8 lg:p-10 shadow-elevated"
           >
-            <p className="text-cream/85 text-lg leading-relaxed">
-              Arkann is designed for families who seek education rooted in purpose and character.
-            </p>
+            <h3 className="font-serif text-xl text-cream mb-6">
+              What we offer:
+            </h3>
+            <ul className="space-y-4 text-cream/85 text-lg leading-relaxed">
+              {whoIsArkannFor.rightBoxPoints?.map((point) => (
+                <li key={point} className="flex gap-3">
+                  <span className="mt-2 h-2 w-2 rounded-full bg-gold shrink-0" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
           </motion.div>
         </div>
 

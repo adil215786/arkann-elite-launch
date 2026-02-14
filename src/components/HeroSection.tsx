@@ -6,7 +6,6 @@ import arkannContent from '@/data/arkannContent';
 const HeroSection = () => {
   const { hero, siteInfo } = arkannContent;
   const mailtoLink = "#request-invite";
-  const campusImage = "/icbr-campus.png";
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 lg:pt-0">
@@ -50,7 +49,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="inline-flex items-center rounded-full border border-cream/30 bg-navy/45 px-4 py-2 text-[11px] md:text-sm uppercase tracking-[0.14em] text-cream mb-7"
             >
-              Full Time In Person Academy • Campus Inside the Islamic Center of Boca Raton
+              Learning Center for Homeschooled Students • Boca Raton, FL
             </motion.p>
 
             {/* Main Headline */}
@@ -68,7 +67,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.9 }}
-                className="text-cream/85 text-base md:text-xl max-w-2xl lg:mx-0 mx-auto mb-9 leading-relaxed"
+                className="text-cream/85 text-base md:text-xl max-w-3xl mx-auto mb-9 leading-relaxed px-4"
               >
                 {hero.subheadline}
               </motion.p>
@@ -86,30 +85,6 @@ const HeroSection = () => {
               </Button>
             </motion.div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.8 }}
-            className="relative mx-auto w-full max-w-[300px] lg:max-w-[330px]"
-          >
-            <div className="absolute -inset-2 rounded-[1.6rem] bg-gradient-to-br from-gold/30 via-cream/15 to-transparent blur-md" />
-            <div className="relative overflow-hidden rounded-[1.6rem] border border-cream/35 bg-navy/45 p-2 shadow-elevated">
-              <img
-                src={campusImage}
-                alt="Arkann Academy campus at the Islamic Center of Boca Raton"
-                className="h-[124px] w-full rounded-[1.1rem] object-cover md:h-[184px]"
-              />
-              <div className="pointer-events-none absolute inset-x-2 bottom-2 rounded-xl border border-cream/35 bg-navy/75 px-2.5 py-1.5 backdrop-blur-sm md:inset-x-3 md:bottom-3 md:px-3 md:py-2">
-                <p className="text-gold text-[9px] uppercase tracking-[0.16em]">
-                  Campus Location
-                </p>
-                <p className="text-cream text-[10px] md:text-xs">
-                  Inside the Islamic Center of Boca Raton (ICBR)
-                </p>
-              </div>
-            </div>
-          </motion.div>
         </motion.div>
       </div>
 
@@ -118,7 +93,7 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-20 left-1/2 -translate-x-1/2 hidden lg:block"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

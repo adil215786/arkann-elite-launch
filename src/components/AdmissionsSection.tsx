@@ -15,17 +15,17 @@ const AdmissionsSection = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <p className="text-gold text-sm tracking-[0.25em] uppercase font-medium mb-4">
-            Admissions
+            Getting Started
           </p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-navy text-balance">
-            Enrollment by invitation
+            Contact us to learn more
           </h2>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           <div className="bg-card rounded-3xl p-8 lg:p-10 shadow-card">
             <h3 className="font-serif text-2xl text-navy mb-4">
-              How enrollment works :
+              How to get started:
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
               {enrollment.philosophy}
@@ -41,28 +41,22 @@ const AdmissionsSection = () => {
               ))}
             </ol>
             <p className="mt-6 text-muted-foreground text-sm">
-              Applications open on {enrollment.openDate}.
-            </p>
-            <p className="mt-2 text-muted-foreground text-sm">
-              Required documents: {enrollment.requiredDocuments.join(", ")}.
+              Programs begin {enrollment.openDate}.
             </p>
           </div>
 
           <div className="bg-navy rounded-3xl p-8 lg:p-10 text-cream shadow-elevated">
-            <h3 className="font-serif text-2xl mb-4">Tuition & Hours</h3>
+            <h3 className="font-serif text-2xl mb-4">Investment & Contact</h3>
             {tuition.displayOnWebsite && (
-              <p className="text-cream/85 leading-relaxed mb-4">
-                Tuition is ${tuition.amount.toLocaleString()} per month per student.
-                Florida state scholarships accepted: {tuition.scholarships.types.join(", ")}.
+              <p className="text-cream/85 leading-relaxed mb-6">
+                Monthly fee: ${tuition.amount.toLocaleString()} per student
               </p>
             )}
-            <p className="text-cream/70 text-sm mb-6">
-              {tuition.scholarships.description}
-            </p>
             <div className="space-y-3 text-cream/85 text-sm">
-              <p>Monday–Thursday: {schedule.hours.mondayThursday}</p>
-              <p>Friday: {schedule.hours.friday}</p>
-              <p>Office hours: {contact.officeHours}</p>
+              <p><span className="font-semibold text-gold">Phone:</span> {contact.phoneFormatted}</p>
+              <p><span className="font-semibold text-gold">Email:</span> {contact.email}</p>
+              <p><span className="font-semibold text-gold">Office hours:</span> {contact.officeHours}</p>
+              <p><span className="font-semibold text-gold">Location:</span> {contact.address.full}</p>
             </div>
           </div>
         </div>
